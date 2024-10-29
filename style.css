@@ -1,0 +1,78 @@
+body {
+	background-color: beige;
+	color: darkred;
+	font-family: Courier;
+}
+h1 {
+	color: grey;
+	font-family: Helvetica;
+	font-weight: 180;
+	letter-spacing: 8px;
+	font-size: 46px;
+	text-transform: uppercase;
+}
+h2 {
+	color: rgb(100, 100, 100);
+	font-family: Courier;
+	font-size: 24px;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+}
+a:hover {
+	color : blue;
+}
+div {
+	background: white;
+	border: 2px solid black;
+	margin: 10px;
+}
+
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius:4px;
+	margin:20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: blue;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left:0px;
+}
+.list-inline li {
+	display: inline;
+	padding:10px;
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: black;
+}
+#introduction p {
+	margin-bottom: 60px;
+}
+
+
+
